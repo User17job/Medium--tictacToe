@@ -89,3 +89,10 @@ body{
     transform: translate(3px, 3px);
 }
 
+@media  screen and (width <= 600px) {
+.box{
+    background-color: #252525;
+    width: 105px;
+    height: 105px;
+}
+}
