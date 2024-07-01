@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    left: 75%;
+    top: 45px;
+    padding: 7px 14px;
+    background-color: #252525;
+    border: rgb(69, 255, 249) solid;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(69, 255, 249);
+    opacity: 40%;
+}
+.btn:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.btn:active{
+    border: #FAFAFA solid;
+    color: #FAFAFA;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(255, 0, 0, 0);
+    transition: 2s;
+    
+}
+
+
+.box{
+    width: 115px;
+    height: 115px;
+    border: solid rgb(85, 255, 252);
+    border-radius: 20px;
+    color: rgb(85, 255, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Lilita One", sans-serif;
+    transition: 0.5s;
+    margin: 15px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box:active{
+    transform: scale(0.9);
+}
+.winner{
+    display: none;
+}
+.button-container{
+    position: relative;
+    top: -350px;
+}
+.button {
+    display: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 17px 15px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+  
+}
+  
+.button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
