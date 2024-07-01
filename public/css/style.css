@@ -43,8 +43,11 @@ body{
 
 
 .box{
+
     width: 115px;
     height: 115px;
+    background-color: #252525;
+
     border: solid rgb(85, 255, 252);
     border-radius: 20px;
     color: rgb(85, 255, 252);
@@ -90,8 +93,10 @@ body{
 }
 
 @media  screen and (width <= 600px) {
+    body{
+        overflow: hidden;
+    }
 .box{
-    background-color: #252525;
     width: 105px;
     height: 105px;
 }
