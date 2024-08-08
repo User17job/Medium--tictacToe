@@ -44,7 +44,6 @@
      if (winMessage === null) return
      winMessage.textContent = "Winner is " + turn;
      if (turn == "X") {
-         
          X = X + 1;
          score.textContent = `O: ${O} __ X: ${X}`;
      } else {
